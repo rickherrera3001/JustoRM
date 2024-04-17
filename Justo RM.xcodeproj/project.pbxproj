@@ -13,6 +13,8 @@
 		D0859F542BD07CB2005021F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0859F532BD07CB2005021F9 /* Preview Assets.xcassets */; };
 		D08A7C182BD081F500EE4FD6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08A7C172BD081F500EE4FD6 /* Model.swift */; };
 		D08A7C1A2BD0837100EE4FD6 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08A7C192BD0837100EE4FD6 /* ApiClient.swift */; };
+		D0BC99D02BD09455006AB1CC /* JustoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BC99CF2BD09455006AB1CC /* JustoViewModel.swift */; };
+		D0BC99D22BD09471006AB1CC /* JustoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BC99D12BD09471006AB1CC /* JustoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		D0859F532BD07CB2005021F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D08A7C172BD081F500EE4FD6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		D08A7C192BD0837100EE4FD6 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		D0BC99CF2BD09455006AB1CC /* JustoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustoViewModel.swift; sourceTree = "<group>"; };
+		D0BC99D12BD09471006AB1CC /* JustoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 		D08A7C152BD0817200EE4FD6 /* Moduls */ = {
 			isa = PBXGroup;
 			children = (
+				D0BC99CF2BD09455006AB1CC /* JustoViewModel.swift */,
+				D0BC99D12BD09471006AB1CC /* JustoView.swift */,
 			);
 			path = Moduls;
 			sourceTree = "<group>";
@@ -167,10 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BC99D22BD09471006AB1CC /* JustoView.swift in Sources */,
 				D08A7C182BD081F500EE4FD6 /* Model.swift in Sources */,
 				D0859F4F2BD07CB1005021F9 /* ContentView.swift in Sources */,
 				D0859F4D2BD07CB1005021F9 /* Justo_RMApp.swift in Sources */,
 				D08A7C1A2BD0837100EE4FD6 /* ApiClient.swift in Sources */,
+				D0BC99D02BD09455006AB1CC /* JustoViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
