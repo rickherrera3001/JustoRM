@@ -11,6 +11,8 @@
 		D0859F4F2BD07CB1005021F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0859F4E2BD07CB1005021F9 /* ContentView.swift */; };
 		D0859F512BD07CB2005021F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0859F502BD07CB2005021F9 /* Assets.xcassets */; };
 		D0859F542BD07CB2005021F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0859F532BD07CB2005021F9 /* Preview Assets.xcassets */; };
+		D08A7C182BD081F500EE4FD6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08A7C172BD081F500EE4FD6 /* Model.swift */; };
+		D08A7C1A2BD0837100EE4FD6 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08A7C192BD0837100EE4FD6 /* ApiClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D0859F4E2BD07CB1005021F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D0859F502BD07CB2005021F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0859F532BD07CB2005021F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D08A7C172BD081F500EE4FD6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D08A7C192BD0837100EE4FD6 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,9 @@
 		D0859F4B2BD07CB1005021F9 /* Justo RM */ = {
 			isa = PBXGroup;
 			children = (
+				D08A7C162BD0818800EE4FD6 /* Models */,
+				D08A7C152BD0817200EE4FD6 /* Moduls */,
+				D0859F5A2BD08062005021F9 /* Network */,
 				D0859F4C2BD07CB1005021F9 /* Justo_RMApp.swift */,
 				D0859F4E2BD07CB1005021F9 /* ContentView.swift */,
 				D0859F502BD07CB2005021F9 /* Assets.xcassets */,
@@ -65,6 +72,29 @@
 				D0859F532BD07CB2005021F9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0859F5A2BD08062005021F9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D08A7C192BD0837100EE4FD6 /* ApiClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D08A7C152BD0817200EE4FD6 /* Moduls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Moduls;
+			sourceTree = "<group>";
+		};
+		D08A7C162BD0818800EE4FD6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D08A7C172BD081F500EE4FD6 /* Model.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D08A7C182BD081F500EE4FD6 /* Model.swift in Sources */,
 				D0859F4F2BD07CB1005021F9 /* ContentView.swift in Sources */,
 				D0859F4D2BD07CB1005021F9 /* Justo_RMApp.swift in Sources */,
+				D08A7C1A2BD0837100EE4FD6 /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
